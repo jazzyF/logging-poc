@@ -11,8 +11,8 @@
         </Console>
     </Appenders>
     <!-- Rolling File Appender -->
-    <RollingFile name="FileAppender" fileName="logs/logs-poc.log"
-                 filePattern="logs/logs-poc-%d{yyyy-MM-dd}-%i.log">
+    <RollingFile name="FileAppender" fileName="logs-poc.log"
+                 filePattern="logs-poc-%d{yyyy-MM-dd}-%i.log">
         <PatternLayout>
             <Pattern>${LOG_PATTERN}</Pattern>
         </PatternLayout>
